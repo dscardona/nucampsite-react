@@ -2,10 +2,11 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Footer = () => {
     return (
-        <Footer className='site-footer'>
+        <footer className='site-footer'>
             <Container>
                 <Row>
-                    <Col xs={{ size: 4, offset: 1 }} sm='2'><h5>this will be site navigation!</h5></Col>
+                    <Col xs={{ size: 4, offset: 1 }} sm='2'><h5>this will be site navigation!</h5>
+                    </Col>
                     <Col xs='6' sm='3' className='text-center'>
                         <h5>Social</h5>
                         <a
@@ -52,7 +53,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </Footer>
+        </footer>
     );
 };
 
