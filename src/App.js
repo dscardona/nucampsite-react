@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
 import NucampLogo from './app/assets/img/logo.png';
-import CampsitesList from './features/campsites/CampsiteCard.js';
+import CampsitesList from './features/campsites/CampsitesList';
 
 function App() {
   return (
